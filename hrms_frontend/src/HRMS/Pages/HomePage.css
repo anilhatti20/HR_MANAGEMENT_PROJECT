@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 20px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #03347d;
+}
+
+
+
+.logo-img {
+  width: 90px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.logo span {
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+/* Right nav links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+ 
+
+.login-btn {
+  background-color: #350ea0;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.login-btn:hover{
+  background-color: white;
+  color: #350ea0;
+}
+.regis-btn{
+   background-color: #350ea0;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.regis-btn:hover{
+  background-color: white;
+  color: #350ea0;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0 20px;
+  padding-left: 1px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero h1 .purple {
+  color:   #03347d;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #030303;
+  margin-top: 10px;
+}
+/* Job Listings Section */
+.job-listings {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #f4f8ff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.job-listings h2 {
+  font-size: 28px;
+  color: #03347d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Job Cards Container */
+.job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* Each Job Card */
+.job-card {
+  background-color: white;
+  border: 1px solid #d1e2ff;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 50, 0.06);
+}
+
+.job-card h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #03347d;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Apply Now Button */
+.job-card button {
+  padding: 10px 16px;
+  background-color: #03347d;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.job-card button:hover {
+  background-color: #ffffff;
+  color: #03347d;
+  border: 1px solid #03347d;
+}

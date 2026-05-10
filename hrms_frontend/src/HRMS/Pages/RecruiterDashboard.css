@@ -1,0 +1,71 @@
+.recruiter-dashboard {
+  padding: 30px;
+  background-color: #f4faff;
+  font-family: Arial, sans-serif;
+}
+
+.vacancy-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 30px;
+}
+
+.vacancy-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.vacancy-form select, .vacancy-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.message {
+  margin-top: 15px;
+  color: green;
+}
+
+.applications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.application-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.decision-buttons button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.back-arrow:hover {
+  background-color: #0056b3;
+}

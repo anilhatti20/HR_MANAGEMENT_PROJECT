@@ -1,0 +1,53 @@
+.employee-management {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.employee-management h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.employee-management ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.employee-management ul li {
+  padding: 10px;
+  background: #f1f8ff;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #007bff;
+}
+
+.add-employee {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.add-employee input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.add-employee button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-employee button:hover {
+  background-color: #0056b3;
+}
